@@ -1,3 +1,12 @@
+local a = game.ReplicatedStorage
+local b = "Check"
+
+a[b].OnClientInvoke = function()
+    local c = 1 + 1
+    local d = c - 1
+    return d == 1
+end
+
 local function a(b)
 	local c = {}
 	local d = b.Parent
